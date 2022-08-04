@@ -1,0 +1,151 @@
+.main-container{
+    width: 100%;
+}
+.flex-container{
+    width: 2000px;
+    display:flex;
+    background-color:black;
+    height: 120px;
+}
+.menu{
+    min-width:600px;
+    color:white;
+    font-size: 1.7cm;
+    text-align: center;
+    padding-top: 40px;
+}
+#banner-image{
+    width:auto;
+}
+
+.image-container{
+    display:flex;
+    position: relative;
+    text-align: center;
+    
+}
+.banner-title{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    font-size: 5em;
+    color: white;
+}
+.banner-subtitle{
+    position: absolute;
+    top:45%;
+    left:47%;
+    font-size:3em;
+    color: white;
+}
+.skill-container{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    height: 500px;
+    margin-top: 50px;
+    background-color:turquoise;
+    flex-direction: row;
+    margin-left: auto;
+}
+.skill1{
+    display: flex;
+    width: 800px;
+    margin-top: 40px;
+    justify-content: center;
+}
+#image{
+    width: flex;
+    height: 200px;
+    margin-right: 100px;
+}
+#skill-text{
+    color: black;
+    margin-top:30px;
+    font-weight: bold;
+    font-size: 3em;
+}
+.skill-heading{
+    display: flex;
+    widows: 100%;
+    height: 100px;
+    color: black;
+    background-color: blue;
+    font-size: 2em;
+    margin-bottom: 150px;
+}
+
+.skill-title{
+    margin-left:45%;
+    margin-top: 150px;
+    font-size: 5em
+}
+.portfolio heading{
+    display:flex;
+    widows:100%;
+    height:100px;
+    margin-top:50px;
+    font-size:5em;
+    margin-bottom: 10px;
+}
+.portfolio-title{
+    margin-left:45%;
+    margin-top:25px;
+    font-size:3.6em;
+}
+.portfolio-container{
+    display:flex;
+    margin-left:50px;
+    margin-top: 100px;
+    font-size: 1.5em;
+}
+#portfolioimg{
+    height: 400%;
+    font-weight: 300px;
+    margin-left: 100px;
+}
+.portfolio-desc{
+    margin-left: 10px;
+}
+.portfolio-name{
+    font-size: 2em;
+    margin-left: 50px;
+}
+.portfolio-info{
+    font-size: 1em;
+    margin-left: 45px;
+    color: grey;
+}
+hr{
+    width: 50%;
+    align-self: center;
+}
+.testimonials{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: cornflowerblue;
+}
+.client-name{
+    margin-top: 100px;
+    width: 100%;
+    height:50px;
+    font-size: 2.6em;
+    margin-left: 45%;
+}
+.client-designation{
+    width:100%;
+    height: 50px;
+    font-size: 1.5cm;
+    margin-left: 43%;
+    color: grey;
+}
+.client-testimonials{
+    width: 100%;
+    height: 50px;
+    font-size: 1.2cm;
+    margin-left: 13%;
+    color: grey;
+    font-style: italic;
+}
+
